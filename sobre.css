@@ -1,0 +1,96 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;   
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic; 
+    background-color: darkslategray; 
+}
+/*Cabeçalho*/
+header{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    background-color: black; 
+ }
+ ul{
+     display: flex;
+     flex-direction: row;
+     padding: 10px;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ li{
+     margin-left: 5px;
+     padding-left: 30px;
+ }
+ li > a{
+     color: white;
+     text-decoration: none;
+ }
+ li > a:hover{
+     color: gray;
+ }
+ li > a:active{
+   color: gray;
+ }
+ /*Container*/
+ main{
+     background-color: lightgray;
+     margin: auto;
+    max-width: 800px;
+    min-width: 400px;
+ }
+ /*Imagem principal*/
+  div{
+    margin: auto;
+ }
+ div > img{
+    width: 80%;
+    padding-left: 10%;
+ }
+ /*h1,h2,p do main*/
+ h1{
+    text-align: center;
+    padding-top: 15px;
+ }
+ h3{
+     text-align: center;
+     padding-top: 15px;
+}
+ p{
+    text-align: justify;
+    line-height: 1.5em;
+    padding-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+ /*link no sobre*/
+ main > p > a{
+    color: black;
+ }
+ main > p > a:active{
+    color: gray;
+ }
+ /*lista*/
+ aside{
+    background-color: gray;
+    padding: 0px;
+}
+ul.album{
+   display: inline-block;
+    list-style-type: square;
+   list-style-position: outside;
+   columns: 2;
+   padding-left: 10%
+ }
+ /*Rodapé*/   
+ footer{
+    padding-top: 4%;
+    padding-inline-start: 30%;
+ }
+ footer >  a > img{
+    padding-left: 5px;
+ }

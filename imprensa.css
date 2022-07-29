@@ -1,0 +1,89 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: lightgray;
+}
+/*Cabeçalho*/
+header{
+    text-transform: uppercase;
+    font-size: 0.9em;
+    background-color: black; 
+ }
+ ul{
+     display: flex;
+     flex-direction: row;
+     padding: 10px;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ li{
+     margin-left: 5px;
+     padding-left: 30px;
+ }
+ li > a{
+     color: white;
+     text-decoration: none;
+ }
+ li > a:hover{
+     color: gray;
+ }
+ li > a:active{
+   color: gray;
+ }
+ /*Seção de imagens do tipo logo*/
+ section#imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ div.magnetic > a > img{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+ }
+ div.respect > a > img{
+   width: 100%;
+    padding-bottom: 40px;
+    border-radius: 5px;
+ }
+ div.business > a > img{
+    width: 100%;
+    padding-bottom: 20%;
+    border-radius: 5px;
+ }
+ div.film > a > img{
+   width: 100%;
+   padding-bottom: 40px;
+   border-radius: 5px;
+ }
+ div.syn > a > img{
+    width: 100%;
+    padding-bottom: 40px;
+    border-radius: 5px;
+ }
+ div.disrupt > a > img{
+    width: 100%;
+    padding-bottom: 40px;
+    border-radius: 5px;
+ }
+ div.podcast > a > img{
+    width: 100%;
+    padding-bottom: 40px;
+    border-radius: 5px;
+ }
+ div.dbz > a > img{
+    width: 100%;
+    border-radius: 5px;
+ }
+ /*Rodapé*/   
+footer{
+    padding-top: 4%;
+    padding-inline-start: 30%;
+ }
+ footer >  a > img{
+    padding-left: 5px;
+ }

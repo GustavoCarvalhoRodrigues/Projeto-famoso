@@ -1,0 +1,85 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: darkslategrey;
+}
+/*Cabeçalho*/
+header{
+   text-transform: uppercase;
+   font-size: 0.9em;
+   background-color: black; 
+   min-width: 475px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li{
+    margin-left: 5px;
+    padding-left: 30px;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+}
+li > a:hover{
+    color: gray;
+}
+li > a:active{
+  color: gray;
+}
+/*Seção de vídeos*/
+section#secao{
+    margin-top: 30px;
+   padding-left: 5%;
+}
+iframe{
+    max-width: 459px;
+}
+ div.primeiro-video{
+    display: inline-block;
+}
+div.segundo-video{
+    display: inline-block;
+}
+div.terceiro-video{
+    display: inline-block;
+}
+div.quarto-video{
+    display: inline-block;
+}
+div.quinto-video{
+    display: inline-block;
+}
+div.sexto-video{
+    display: inline-block;
+}
+div.setimo-video{
+    display: inline-block;
+}
+div.oitavo-video{
+    display: inline-block;
+}
+div.nono-video{
+    display: inline-block;
+}
+div.decimo-video{
+    display: inline-block;
+}
+/*Rodapé*/   
+footer{
+    padding-top: 4%;
+    padding-inline-start: 30%;
+ }
+ footer >  a > img{
+    padding-left: 5px;
+ }

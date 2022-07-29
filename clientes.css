@@ -1,0 +1,103 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+/*Cabeçalho*/
+header{
+   text-transform: uppercase;
+   font-size: 0.9em;
+   background-color: black; 
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li{
+    margin-left: 5px;
+    padding-left: 30px;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+}
+li > a:hover{
+    color: gray;
+}
+li > a:active{
+  color: gray;
+}
+h1{
+    font-family: serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-size: 2.7em;
+}
+section#videos{
+    margin-top: 30px;
+    padding-left: 5%;
+    background-color: darkred;
+}
+iframe{
+    max-width: 450px;
+}
+div.video-1{
+    display: inline-block;
+}
+div.video-2{
+    display: inline-block;
+}
+div.video-3{
+    display: inline-block;
+}
+div.video-4{
+    display: inline-block;
+}
+div.video-5{
+    display: inline-block;
+}
+div.video-6{
+    display: inline-block;
+}
+div.video-7{
+    display: inline-block;
+}
+div.video-8{
+    display: inline-block;
+}
+div.video-9{
+    display: inline-block;
+}
+div.video-10{
+    display: inline-block;
+}
+div.video-11{
+    display: inline-block;
+}
+div.video-12{
+    display: inline-block;
+}
+div.video-13{
+    display: inline-block;
+}
+div.video-14{
+    display: inline-block;
+}
+/*Rodapé*/   
+footer{
+    padding-top: 4%;
+    padding-inline-start: 30%;
+    background-color: darkred;
+ }
+ footer >  a > img{
+    padding-left: 5px;
+ }

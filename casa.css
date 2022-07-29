@@ -1,0 +1,60 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+/*Cabeçalho*/
+header{
+   text-transform: uppercase;
+   font-size: 0.9em;
+   background-color: black; 
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li{
+    margin-left: 5px;
+    padding-left: 30px;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+}
+li > a:hover{
+    color: gray;
+}
+li > a:active{
+  color: gray;
+}
+/*imagem homem*/
+div.imagem-principal{
+    margin: auto;
+    padding-left: 70px;
+    min-width: 428px;   
+}
+.imagem-principal > img{
+    width: 75%;
+}
+/*Rodapé*/
+footer{
+    background-image: linear-gradient(to top, white, black);
+    padding-left: 15%;
+    padding-top: 4%;    
+}
+footer > a > img{
+    padding-left: 14px;
+}
+footer > p{
+    text-align: center;
+    color: crimson;
+}
